@@ -1,8 +1,8 @@
 # CS 181 Practicals
 
 Hi Everyone,
- 
-GitHub Classrooms Teams have caused some errors/problems. Please read the following very carefully:
+
+Please read the following very carefully:
  
 - Practicals will be distributed through this repo
 - You will NOT use GitHub Classroom for practicals
