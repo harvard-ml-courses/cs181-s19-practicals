@@ -1,0 +1,115 @@
+\documentclass[11pt]{article}
+
+\usepackage{common}
+\usepackage{booktabs}
+\title{Practical 0: Sample Assignment}
+\author{Finale Doshi-Velez \\ finale@seas.harvard.edu \\
+Kaggle usernames here}
+\begin{document}
+
+
+\maketitle{}
+
+
+\noindent This is the template you should use for submitting your practical assignments. 
+A full-credit assignment will go through each of these points and provide a thoughtful 
+clear answer.  Note that the limit for the report is 4 pages, please prioritize quality over 
+quantity in your submission.
+
+\section{Technical Approach}
+
+How did you tackle the problem? Credit will be given for:
+
+  \begin{itemize}
+  \item Diving deeply into a method (rather than just trying
+    off-the-shelf tools with default settings). This can mean 
+    providing mathematical descriptions or pseudo-code.
+  \item Making tuning and configuration decisions using thoughtful experimentation.  
+    This can mean carefully describing features added or hyperparameters tuned.
+  \item Exploring several methods. This can contrasting two approaches
+    or perhaps going beyond those we discussed in class.
+  \end{itemize}
+
+  \noindent Thoughtfully iterating on approaches is key.
+  If you used existing packages or referred to papers or blogs for ideas,
+  you should cite these in your report. 
+
+  \begin{table}
+    \centering
+    \begin{tabular}{@{}lll@{}}
+%      \toprule
+      &\multicolumn{2}{c}{Mention Features  } \\
+      & Feature & Value Set\\
+      \midrule
+      & Mention Head & $\mcV$ \\
+      & Mention First Word & $\mcV$ \\
+      & Mention Last Word & $\mcV$ \\
+      & Word Preceding Mention & $\mcV$ \\
+      & Word Following Mention & $\mcV$\\
+      & \# Words in Mention & $\{1, 2, \ldots \}$ \\
+      & Mention Type & $\mathcal{T}$ \\
+      \bottomrule
+      
+    \end{tabular}
+    \caption{Feature lists are a good way of illustrating problem specific tuning.}
+  \end{table}
+
+
+
+\section{Results}
+This section should report on the following questions: 
+
+\begin{itemize}
+\item Did you create and submit a set of
+  predictions? 
+  
+
+\item  Did your methods give reasonable performance?  
+\end{itemize}
+
+\noindent You must have \textit{at least one plot or table}
+that details the performances of different methods tried. 
+Credit will be given for quantitatively reporting (with clearly
+labeled and captioned figures and/or tables) on the performance of the
+methods you tried compared to your baselines.
+
+
+
+\begin{table}
+\centering
+\begin{tabular}{llr}
+ \toprule
+ Model &  & Acc. \\
+ \midrule
+ \textsc{Baseline 1} & & 0.45\\
+ \textsc{Baseline 2} & & 2.59 \\
+ \textsc{Model 1} & & 10.59  \\
+ \textsc{Model 2} & &13.42 \\
+ \textsc{Model 3} & & 7.49\\
+ \bottomrule
+\end{tabular}
+\caption{\label{tab:results} Result tables can compactly illustrate absolute performance, but a plot may be more effective at illustrating a trend.}
+\end{table}
+
+
+
+
+\section{Discussion} 
+
+
+End your report by discussing the thought process behind your
+analysis. This section does not need to be as technical as the others 
+but should summarize why you took the approach that your did. Credit will be given for:
+
+  \begin{itemize}
+  \item Explaining the your reasoning for why you seqentially chose to
+    try the approaches you did (i.e. what was it about your initial
+    approach that made you try the next change?).  
+  \item Explaining the results.  Did the adaptations you tried improve
+    the results?  Why or why not?  Did you do additional tests to
+    determine if your reasoning was correct?  
+  \end{itemize}
+ 
+
+\end{document}
+

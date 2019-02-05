@@ -1,0 +1,97 @@
+\documentclass[12pt,letterpaper]{article}
+
+
+\usepackage{palatino}
+%\usepackage[linkcolor=blue]{hyperref}
+\usepackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[textsize=tiny]{todonotes}
+\newcommand{\TODO}[1]{\todo[inline]{#1}}
+
+
+\setlist{nolistsep}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0.15in} 
+
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+
+\definecolor{verbgray}{gray}{0.9}
+
+
+
+\begin{document}
+\begin{center}
+  {\large CS 181 -- Practical Logistics}
+\end{center}
+
+
+\paragraph{Competing on \href{https://www.kaggle.com/}{Kaggle}:} You are expected to submit at least one set of predictions to the Kaggle competition online. The link to each practical's competition will be available in the corresponding practical description.   
+
+To join a competition, create an account with Kaggle, and then use the link in the practical description. 
+
+You should navigate to the \texttt{Team} tab on the competition homepage to create or join your practical team. You can do this by requesting to merge with your team partners. Multiple team members can make submissions on each of their accounts, but your final score will just be the best score among your team members. 
+
+There is a limit of four submissions per day \emph{per team}, where ``day'' is determined by UTC time.  \textbf{Note that the Kaggle submission site closes 24 hours before the Canvas assignment.  This is to ensure that you are able to write up any last-minute submissions.} If you have trouble joining the contest, please email the staff list.
+
+\paragraph{What should I turn in via Canvas?}
+
+The main deliverable of this practical is a three-to-four page max
+typewritten document in PDF format.  The document must follow the
+\textit{practical-template.tex} file in this directory.
+
+\paragraph{How will my work be assessed?}
+A practical is intended to be a realistic representation of what it
+is like to tackle a problem in the real world with machine learning.
+As such, there is no single correct answer and you will be expected to
+think critically about how to solve it, execute and iterate your
+approach, and describe your solution.  The upshot of this
+open-endedness is that you will have flexibility in how you tackle the
+problem.  It is sufficient to focus entirely on methods that we
+discuss in class, or you can use this as an opportunity to learn about
+other approaches.
+
+You are welcome to use whatever tools and implementations help you get
+the job done.  Note, however, that you will be expected to
+\emph{understand} everything you do, even if you do not implement the
+low-level code yourself.  It is your responsibility to make it clear
+in your writeup that you did not simply download and run code.
+
+
+You will not be graded in proportion to your Kaggle ranking; we'll be using
+the ranking to help calibrate how difficult the task was and to award
+bonus points to those who go above and beyond.  \textit{However}, you
+must at least clear any sample baseline scores shown on the Kaggle
+leaderboard to earn full points.
+
+
+\paragraph{Bonus Points:}
+The top three teams in Kaggle will be eligible for extra credit.  The
+first place team will receive an extra five points on the practical,
+conditioned on them giving a five-minute presentation to the class at
+the next lecture, in which they describe their approach.  The second
+and third place teams will each receive three extra points,
+conditioned on them posting an explanation of their approach on
+Piazza.
+
+\paragraph{What language should I code in?}
+You can code in whatever language you find most productive.  We will
+provide some limited sample code in Python.  You should not view the
+provided Python code as a required framework, but as hopefully-helpful
+examples.
+
+\paragraph{Can I use \{scikit-learn $|$ pylearn $|$ torch $|$ shogun $|$ other ML library\}?}
+You can use these tools, but not blindly.  You are expected to show a
+deep understanding of the methods we study in the course, and your
+writeup will be where you demonstrate this.
+
+\paragraph{Can I have an extension?}
+There are no extensions to the Kaggle submission and your successful
+submission of predictions forms part of your grade.  Your writeup can
+be turned in late according to standard late day policy.  There are no
+exceptions, so plan ahead.  Find your team early so that there are no
+misunderstandings in case someone drops the class.
+
+\end{document}
